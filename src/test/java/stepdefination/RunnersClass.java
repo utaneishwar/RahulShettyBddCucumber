@@ -13,7 +13,7 @@ import io.cucumber.testng.CucumberOptions;
 
 
 )
-public class RunnerClass extends AbstractTestNGCucumberTests
+public class RunnersClass extends AbstractTestNGCucumberTests
 {
 
 	

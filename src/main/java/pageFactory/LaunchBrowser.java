@@ -10,7 +10,7 @@ public class LaunchBrowser
 	public static  WebDriver driver;
 	public WebDriver initBrowser()
 	{
-		 driver =new ChromeDriver();
+		 driver = new ChromeDriver();
 		 driver.manage().window().maximize();
 		return driver;
 	}
