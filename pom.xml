@@ -4,8 +4,8 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>RahulShetty</groupId>
-  <artifactId>RahulShetty</artifactId>
+  <groupId>BddCucumberBevarageDomain</groupId>
+  <artifactId>BddCucumberBevarageDomain</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
   <name>BddCucumberBevarageDomain</name>
@@ -60,7 +60,10 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
+<<<<<<< HEAD
 				<version>3.12.0</version>
+=======
+>>>>>>> 4c2907494dda0cce44477000c98d324121dcf3dc
 				<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
@@ -73,7 +76,7 @@
 				<version>2.20</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>testng.xml</suiteXmlFile>
+						<suiteXmlFile>credentialtestng.xml</suiteXmlFile>
 				</suiteXmlFiles>
 				</configuration>
 			</plugin>
